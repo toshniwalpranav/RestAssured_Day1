@@ -13,10 +13,10 @@ public class Scemavalidation {
         given()
 
         .when()
-            .get("http://localhost:3000/books")   // ← real DATA endpoint
+            .get("http://localhost:3000/books")   
 
         .then()
             .assertThat()
-            .body(JsonSchemaValidator.matchesJsonSchemaInClasspath("schema.json"));  // ← local SCHEMA file, never served
+            .body(JsonSchemaValidator.matchesJsonSchemaInClasspath("schema1.json"));  
     }
 }
