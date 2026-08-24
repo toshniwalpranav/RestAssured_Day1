@@ -1,0 +1,40 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "category": "Fiction",
+      "price": "399"
+    },
+    {
+      "id": "2",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "category": "Programming",
+      "price": "899"
+    },
+    {
+      "id": "3",
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "category": "Self-Help",
+      "price": "499"
+    },
+    {
+      "id": "4",
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "category": "History",
+      "price": "599"
+    },
+    {
+      "id": "5",
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "category": "Business",
+      "price": "699"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
